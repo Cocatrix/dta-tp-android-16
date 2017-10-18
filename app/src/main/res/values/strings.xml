@@ -2,4 +2,5 @@
     <string name="app_name">TP16App</string>
     <string name="hello_1_fragment">Text 1</string>
     <string name="hello_2_fragment">Text 2</string>
+    <string name="next_fragment">Go to next fragment</string>
 </resources>

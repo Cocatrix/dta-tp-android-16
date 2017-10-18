@@ -21,4 +21,9 @@ public class UserFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_user, container, false);
         return view;
     }
+
+
+    public void updateUserView(int position) {
+
+    }
 }

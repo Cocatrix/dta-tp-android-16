@@ -4,10 +4,16 @@
     android:layout_height="match_parent"
     tools:context="fr.codevallee.formation.tp16app.fragment.ListUserFragment">
 
-    <TextView
+    <ListView
+        android:id="@+id/list_users"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_1_fragment"
-        android:textSize="25dp"/>
+        android:layout_height="match_parent">
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next_fragment"/>
 
 </FrameLayout>

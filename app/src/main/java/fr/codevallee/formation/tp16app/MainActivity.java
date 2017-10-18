@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import fr.codevallee.formation.tp16app.fragment.ListUserFragment;
 
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends FragmentActivity implements ListUserFragment.OnHeadlineSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,5 +23,10 @@ public class MainActivity extends FragmentActivity {
             getFragmentManager().beginTransaction()
                     .add(R.id.fragment_container, firstFragment).commit();
         }
+    }
+
+    @Override
+    public void onUserSelected(int position) {
+
     }
 }
